@@ -24,7 +24,12 @@
 export async function handler(event, context) {
   try {
     const response = await fetch(
-      "https://www.reddit.com/user/talhamusharraf/submitted.json?raw_json=1"
+      "https://www.reddit.com/user/talhamusharraf/submitted.json?raw_json=1",
+      {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+      }
     );
 
     if (!response.ok) {
