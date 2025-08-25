@@ -24,7 +24,8 @@ const Blog = () => {
       setLoading(true);
       setError(null);
       try {
-  const res = await fetch("/.netlify/functions/reddit-blogs");
+        // Use your Cloudflare Worker URL here
+        const res = await fetch("https://reddit-proxy.gamingtycoon25.workers.dev/");
         if (!res.ok) throw new Error("Failed to fetch blog posts");
         const json = await res.json();
         const mapped: Post[] = (json.data.children || []).map((c: any) => ({
