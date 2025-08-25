@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const WhatsAppFloating = () => (
   <a
-    href="https://wa.me/?text=I'm%20interested%20in%20Dubai%20properties"
+  href="https://wa.link/ufylk0"
     target="_blank"
     rel="noreferrer"
     aria-label="WhatsApp"
@@ -18,7 +18,7 @@ export const MobileQuickActions = () => (
       <ul className="flex items-center justify-around p-3 text-sm">
         <li><a className="story-link" href="/properties">Properties</a></li>
         <li><a className="story-link" href="/reviews">Reviews</a></li>
-        <li><a className="story-link" href="https://wa.me/?text=I'm%20interested%20in%20Dubai%20properties" target="_blank" rel="noreferrer">WhatsApp</a></li>
+  <li><a className="story-link" href="https://wa.link/ufylk0" target="_blank" rel="noreferrer">WhatsApp</a></li>
       </ul>
     </div>
   </nav>

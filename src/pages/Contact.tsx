@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
             <div className="mt-4 text-sm text-muted-foreground">
               <a className="story-link" href="mailto:info@talhamusharraf.com">Email</a> · {" "}
-              <a className="story-link" href="https://wa.me/?text=I'm%20interested%20in%20Dubai%20properties" target="_blank" rel="noreferrer">WhatsApp</a>
+              <a className="story-link" href="https://wa.link/ufylk0" target="_blank" rel="noreferrer">WhatsApp</a>
             </div>
           </div>
         </section>
